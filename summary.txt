@@ -1,0 +1,4 @@
+Total rows: 648
+Missing/Invalid LinkedIn profiles: 228
+Unique Job Titles: 353
+Rows needing manual LinkedIn review: 228
