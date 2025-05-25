@@ -27,7 +27,7 @@ Clean and process messy event registration data, identify incomplete entries, an
 
 Make sure you have Python 3 and pandas installed.
 
-```bash
+````bash
 python clean_data.py
 This will generate:
 
@@ -37,16 +37,26 @@ linkedin_review.csv
 
 summary.txt
 
-Step 2: Auto-Personalized Messaging
+### Step 2: Auto-Personalized Messaging
 After Step 1 is done, run:
-
-bash
-Copy
-Edit
+```bash
 python auto_message.py
+
+
 This will generate:
 
 personalized_messages.csv — CSV with email and message columns
 
 messages_txt/ — folder with individual .txt files containing personalized messages for each user
-```
+
+📧 Bonus
+The messaging script also saves individual message files in messages_txt/ folder, fulfilling the bonus requirement.
+
+🛠 Requirements
+Python 3.x
+
+pandas (install via pip install pandas)
+
+📞 Contact
+For questions or feedback, reach out at shishodiasanidhya@gmail.com.
+````
