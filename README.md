@@ -29,4 +29,24 @@ Make sure you have Python 3 and pandas installed.
 
 ```bash
 python clean_data.py
+This will generate:
+
+cleaned_event_data.csv
+
+linkedin_review.csv
+
+summary.txt
+
+Step 2: Auto-Personalized Messaging
+After Step 1 is done, run:
+
+bash
+Copy
+Edit
+python auto_message.py
+This will generate:
+
+personalized_messages.csv — CSV with email and message columns
+
+messages_txt/ — folder with individual .txt files containing personalized messages for each user
 ```
